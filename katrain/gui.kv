@@ -506,7 +506,7 @@
     background_color: Theme.BOX_BACKGROUND_COLOR
     do_scroll_x: False
     scroll_type: ['bars']
-    bar_width: 5
+    bar_width: 50
     bar_color: Theme.SCROLLBAR_COLOR
     label: label
     canvas.before:
@@ -514,7 +514,7 @@
             rgba: root.outline_color
         Line:
             rectangle:  (*self.pos,*self.size)
-            width: 1
+            width: 25
     Label:
         id: label
         lang_change_tracking: i18n._('')
